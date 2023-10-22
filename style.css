@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #db2626;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#superhero-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.superhero-card {
+    border: 2px solid #db2626;
+    padding: 20px;
+    background-color: rgb(202, 197, 197);
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.superhero-card h2 {
+    color: #db2626;
+    text-align: center;
+}
+
+.superhero-card p {
+    margin: 10px 0;
+}
+
+.superhero-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.navbar {
+    border: solid black;
+    width: 100%;
+    height: 25rem;
+    background-image:
+}
